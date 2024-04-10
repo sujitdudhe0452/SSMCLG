@@ -1,0 +1,63 @@
+.container-full {
+  background-color: #1d3557;
+  color: white;
+  text-align: justify;
+  padding: 10px;
+  border-radius: 0;
+  margin: 0;
+  height: 110vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  max-width: 800px;
+  width: 100%;
+}
+
+#he
+{
+  color: red;
+}
+h2 {
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* Animation classes */
+.animate__animated {
+  animation-duration: 1s;
+}
+
+.animate__fadeInDown {
+  animation-name: fadeInDown;
+}
+
+.animate__fadeIn {
+  animation-name: fadeIn;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

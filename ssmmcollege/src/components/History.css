@@ -1,0 +1,49 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #1d3557; /* Set background color for the entire page */
+}
+
+.container {
+  background-color: #1d3557;
+  color: white;
+  text-align: justify;
+  width: 100vw; /* Take up full width of the viewport */
+  padding: 20px; /* Add padding for better spacing */
+  box-sizing: border-box; 
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+#ex
+{
+  text-align: center;
+}
+#he
+{
+  color: red;
+  text-align: center;
+
+}
+.containerTable {
+  
+  background-color: #1d3557;
+  color: white;
+  text-align: justify;
+  padding: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: green;
+}

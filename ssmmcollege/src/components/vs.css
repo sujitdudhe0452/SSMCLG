@@ -1,0 +1,37 @@
+body {
+  background-color: #1d3557;
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure full viewport height */
+}
+
+.container {
+  text-align: justify;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px; /* Limit width for better readability */
+}
+
+.animated-text {
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.container h2 {
+  color: red; /* Set the color of the heading to red */
+}
+
