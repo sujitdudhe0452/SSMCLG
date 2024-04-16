@@ -1,0 +1,41 @@
+/* CodeOfConduct.css */
+
+/* Set full page background color */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+    background-color: #1d3557; /* Background color */
+    color: white; /* Text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center-align the content */
+.container {
+    text-align: center;
+}
+
+/* Styling for the heading */
+h2 {
+    color: red; /* Red color for the heading */
+    margin-bottom: 20px; /* Spacing below the heading */
+}
+
+/* Styling for the paragraph */
+p {
+    font-size: 18px; /* Font size */
+    margin-bottom: 20px; /* Spacing below the paragraph */
+}
+
+/* Styling for the PDF link */
+a {
+    color: white; /* Text color for the link */
+    text-decoration: underline; /* Underline the link */
+}
+
+/* Styling for the PDF link on hover */
+a:hover {
+    color: lightgrey; /* Text color on hover */
+}

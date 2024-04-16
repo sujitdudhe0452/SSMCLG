@@ -1,37 +1,58 @@
+/* PrincipalMessage.css */
+
+/* Set full page background color */
 html, body {
     margin: 0;
     padding: 0;
-    height: 130%;
-    background-color: #1d3557; /* Set background color for the entire page */
-}
-
-.container {
+    height: 100%;
+    background-color: #1d3557;
     color: white;
     text-align: justify;
-    padding: 20px;
-}
-
-#text {
-    color: red;
-}
-
-#Principle {
-    color: chocolate;
-}
-
-.president-image-container {
+  }
+  
+  /* Styling for the main container */
+  .principal-message-container {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 100vh; /* Occupy full height of the viewport */
-}
+    justify-content: justify;
+    align-items: center;
+    padding: 20px;
+    text-align: justify;
+  }
+  
+  /* Styling for the principal's message content */
+  .principal-message-content {
+    flex: 1;
+  }
+  
+  /* Styling for the principal's title */
+  .principal-message-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: tomato;
 
-.president-image {
-    max-width: 50px; /* Set the maximum width to 50 pixels */
-    max-height: 50px; /* Set the maximum height to 50 pixels */
-    width: auto; /* Maintain aspect ratio */
-    border: 2px solid white; /* Apply a white border with 2px width */
-    border-radius: 8px; /* Add border radius for rounded corners */
-}
-
-
+  }
+  
+  /* Styling for the principal's message list */
+  .principal-message-list {
+    margin-bottom: 15px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  /* Styling for the principal's signature */
+  .principal-signature {
+    margin-top: 20px;
+  }
+  
+  /* Styling for the image container */
+  .principal-image {
+    flex: 0.4;
+  }
+  
+  /* Styling for the image */
+  .principal-img {
+    width: 90%;
+    padding: left 2px;
+    border-radius: 5px;
+  }
+  

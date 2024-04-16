@@ -1,0 +1,33 @@
+/* Set full page background color */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #1d3557;
+    color: white;
+    text-align: justify;
+}
+
+/* Container for all components */
+.management-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Styling for the President component */
+.president-container {
+    /* Add styles for the President component */
+    
+}
+
+/* Styling for the Vice President component */
+.vice-president-container {
+    /* Add styles for the Vice President component */
+}
+
+/* Styling for the Principal Message component */
+.principal-message-container {
+    /* Add styles for the Principal Message component */
+}

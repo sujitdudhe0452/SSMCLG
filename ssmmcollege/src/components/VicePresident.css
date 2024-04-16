@@ -1,45 +1,53 @@
-html, body 
-{
+/* VicePresident.css */
+
+/* Set full page background color */
+html, body {
   margin: 0;
   padding: 0;
   height: 100%;
   background-color: #1d3557; /* Set background color for the entire page */
+  color: white; /* Set text color */
 }
 
-.president-message-container {
-  background-color: white;
+/* Styling for the main container */
+.vice-president-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 20px;
-  margin: 10px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: justify; /* Justify text */
 }
 
-#texth
-{
-  color: red;
+/* Styling for the vice president's content */
+.vice-president-content {
+  flex: 1;
 }
 
-#text {
-  color: white; /* Apply white text color */
+/* Styling for the vice president's title */
+.vice-president-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: tomato; /* Set title color */
+}
+
+/* Styling for the paragraphs of text */
+.vice-president-text {
+  margin-bottom: 15px;
+  line-height: 1.5;
   text-align: justify;
 }
 
-
-.image-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
+/* Styling for the vice chairman's signature */
+.vice-president-signature {
+  margin-top: 20px;
 }
 
-.image-container img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 50%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+/* Styling for the image container */
+.vice-president-image {
+  flex: 0.4;
 }
 
-#vicechairman
-{
-  color: white;
+/* Styling for the image */
+.vice-president-img {
+  width: 90%;
+  border-radius: 5px; /* Apply border radius */
 }
